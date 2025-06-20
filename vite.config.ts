@@ -10,6 +10,11 @@ export default defineConfig({
   base: 'https://github.com/raghvendrasoni83/raghvendra-resume',
   build: {
     outDir: 'dist',
-    assetsDir: 'assets',
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      }
+    }
   },
 });
