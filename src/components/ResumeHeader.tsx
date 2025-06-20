@@ -9,7 +9,7 @@ const ResumeHeader: React.FC = () => {
       
       <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 p-1 shadow-xl shadow-amber-500/20">
         <img 
-          src="https://github.com/raghvendrasoni83/raghvendra-resume/blob/main/my-pic.jpg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop&crop=face" 
+          src="https://raw.githubusercontent.com/raghvendrasoni83/raghvendra-resume/main/my-pic.jpg" 
           alt="Raghvendra Soni" 
           className="w-full h-full rounded-full object-cover border-2 border-slate-800"
         />
