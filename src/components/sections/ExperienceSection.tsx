@@ -36,7 +36,8 @@ const ExperienceSection: React.FC = () => {
       duration: "11/2021 - 03/2023", 
       achievements: [
         { icon: Cube, text: "As founding devops engineer, architected and scaled revolutionary infrastructure supporting exponential growth from 500 RPM to 5M RPM, establishing industry-leading performance benchmarks" },
-        { icon: Cloud, text: "Designed and implemented comprehensive Kubernetes orchestration platform, automating onboarding and deployment processes for 500+ microservices using custom helm charts, ArgoCD, and FluxCD" },
+        {icon: wheel_of_dharma, text: "Designed and implemented Zepto’s first Kubernetes (EKS) infrastructure. Migrated microservices from EC2 to EKS"}
+        { icon: Cloud, text: "Designed and implemented a comprehensive Kubernetes orchestration platform, automating onboarding and deployment processes for 500+ microservices using custom helm charts, ArgoCD, and FluxCD, reducing onboarding time from 2 days to under 15 minutes." },
         { icon: Eye, text: "Established enterprise-grade observability ecosystem utilizing NewRelic, Prometheus, Grafana, Loki, and Promtail, providing comprehensive system visibility and proactive monitoring" },
         { icon: Rocket, text: "Pioneered automated ephemeral environment solutions optimized for Dev/QA workflows using DevSpace, accelerating development cycles and improving testing efficiency" }
       ]
