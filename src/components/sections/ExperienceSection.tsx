@@ -23,11 +23,12 @@ const ExperienceSection: React.FC = () => {
       company: "Zepto | Bangalore", 
       duration: "04/2023 - 04/2025",
       achievements: [
-        { icon: Server, text: "Architected and deployed sophisticated in-house bastion server utilizing AWS SSM, Slack Bot integration, and Go programming, delivering controlled time-based access for critical incident response" },
-        { icon: Rocket, text: "Revolutionized environment provisioning through comprehensive automation, dramatically reducing production-like environment setup from 6 months to 1-2 weeks" },
-        { icon: Shield, text: "Successfully orchestrated enterprise-wide BottleRocket AMI deployment across all environments and EKS clusters, achieving 5-20% performance enhancement and substantial security risk mitigation" },
-        { icon: Users, text: "Provided strategic leadership and mentorship to a team of 4 engineers, facilitating knowledge transfer, career development, and seamless project execution" },
-        { icon: BarChart, text: "Engineered comprehensive latency optimization and resource utilization strategies for micro-services architecture, delivering measurable performance improvements" }
+        { icon: Server, text: "Architected and deployed sophisticated in-house bastion server utilizing AWS SSM, Slack Bot integration, and Go programming, delivering controlled time-based access for critical incident response." },
+        {icon: ArrowsRotate, text: "EKS version upgrades across multiple environments over 3 years with zero/minimal downtime, ensuring smooth platform evolution. Designed and implemented redundant EKS clusters to support rapid failover and ensure business continuity in case of emergency."},
+        { icon: Rocket, text: "Revolutionized environment provisioning through comprehensive automation, dramatically reducing production-like environment setup from 6 months to 1-2 weeks." },
+        { icon: Shield, text: "Successfully orchestrated enterprise-wide BottleRocket AMI deployment across all environments and EKS clusters, achieving 5-20% performance enhancement and substantial security risk mitigation." },
+        { icon: Users, text: "Provided strategic leadership and mentorship to a team of 4 engineers, facilitating knowledge transfer, career development, and seamless project execution." },
+        { icon: BarChart, text: "Engineered comprehensive latency optimization and resource utilization strategies for micro-services architecture, delivering measurable performance improvements." }
       ]
     },
     {
@@ -35,11 +36,11 @@ const ExperienceSection: React.FC = () => {
       company: "Zepto | Bangalore",
       duration: "11/2021 - 03/2023", 
       achievements: [
-        { icon: Cube, text: "As founding devops engineer, architected and scaled revolutionary infrastructure supporting exponential growth from 500 RPM to 5M RPM, establishing industry-leading performance benchmarks" },
-        {icon: wheel_of_dharma, text: "Designed and implemented Zepto’s first Kubernetes (EKS) infrastructure. Migrated microservices from EC2 to EKS"}
+        { icon: Cube, text: "As founding devops engineer, architected and scaled revolutionary infrastructure supporting exponential growth from 500 RPM to 5M RPM, establishing industry-leading performance benchmarks." },
+        {icon: WheelOfDharma, text: "Designed Zepto’s first Kubernetes (EKS) infrastructure. Migrated microservices from EC2 to EKS."}
         { icon: Cloud, text: "Designed and implemented a comprehensive Kubernetes orchestration platform, automating onboarding and deployment processes for 500+ microservices using custom helm charts, ArgoCD, and FluxCD, reducing onboarding time from 2 days to under 15 minutes." },
-        { icon: Eye, text: "Established enterprise-grade observability ecosystem utilizing NewRelic, Prometheus, Grafana, Loki, and Promtail, providing comprehensive system visibility and proactive monitoring" },
-        { icon: Rocket, text: "Pioneered automated ephemeral environment solutions optimized for Dev/QA workflows using DevSpace, accelerating development cycles and improving testing efficiency" }
+        { icon: Eye, text: "Established enterprise-grade observability ecosystem utilizing NewRelic, Prometheus, Grafana, Loki, and Promtail, providing comprehensive system visibility and proactive monitoring." },
+        { icon: Rocket, text: "Pioneered automated ephemeral environment solutions optimized for Dev/QA workflows using DevSpace, accelerating development cycles and improving testing efficiency." }
       ]
     },
     {
@@ -47,10 +48,10 @@ const ExperienceSection: React.FC = () => {
       company: "One97 Communications (Paytm) | Noida",
       duration: "07/2019 - 11/2021",
       achievements: [
-        { icon: Database, text: "Orchestrated comprehensive disaster recovery protocols and implemented high-availability architectures ensuring 24x7 operational excellence with zero planned downtime" },
-        { icon: Upload, text: "Strategically planned and executed large-scale data center to AWS cloud migration, establishing robust deployment pipelines, automation frameworks, and comprehensive observability solutions" },
-        { icon: UsersIcon, text: "Engineered enterprise-scale user management automation across 6,000+ servers supporting 500+ personnel, utilizing Salt, Snoopy, SSH, and ElasticSearch for comprehensive audit trails" },
-        { icon: BarChart, text: "Architected unified monitoring infrastructure across Paytm ecosystem using Prometheus, Grafana, Telegraf, and Alertmanager, establishing centralized observability standards" }
+        { icon: Database, text: "Orchestrated comprehensive disaster recovery protocols and implemented high-availability architectures ensuring 24x7 operational excellence with zero planned downtime." },
+        { icon: Upload, text: "Strategically planned and executed large-scale data center to AWS cloud migration, establishing robust deployment pipelines, automation frameworks, and comprehensive observability solutions." },
+        { icon: UsersIcon, text: "Engineered enterprise-scale user management automation across 6,000+ servers supporting 500+ personnel, utilizing Salt, Snoopy, SSH, and ElasticSearch for comprehensive audit trails." },
+        { icon: BarChart, text: "Architected unified monitoring infrastructure across Paytm ecosystem using Prometheus, Grafana, Telegraf, and Alertmanager, establishing centralized observability standards." }
       ]
     }
   ];
