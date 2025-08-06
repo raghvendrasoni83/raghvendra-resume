@@ -8,14 +8,14 @@ const ExperienceSection: React.FC = () => {
       company: "Zepto | Bangalore",
       duration: "04/2025 - Current",
       achievements: [
-        { icon: Users, text: "Led a high-performing team of 5 DevOps engineers (L1/L2/L3), driving infrastructure optimization, advanced security hardening, and enterprise-level FinOps initiatives" },
-        { icon: DollarSign, text: "Designed and implemented a robust AWS cost optimization framework, generating $200K+ in monthly savings via ML pipeline tuning and intelligent infrastructure rightsizing" },
-        { icon: Network, text: "Engineered advanced MSK rack awareness architecture and optimized data transfer protocols, achieving substantial operational cost reductions and performance enhancements" },
-        { icon: Cloud, text: "Transformed NAT Gateway utilization strategy and deployed advanced Karpenter consolidation techniques to boost resource efficiency and minimize cloud spend" },
-        { icon: BarChart, text: "Built enterprise-scale cost anomaly detection systems and optimized WAF/CloudFront setups, delivering improved performance and measurable cost savings" },
-        { icon: Shield, text: "Directed end-to-end security transformation, including strategic migration from legacy WAF to Cloudflare, enabling superior DDoS protection and reduced latency" },
-        { icon: Lock, text: "Implemented BottleRocket OS across all EKS clusters, achieving zero-vulnerability containers and strengthening overall cluster security posture" },
-        { icon: UserCheck, text: "Integrated Aurava's PII data governance solution, ensuring full regulatory compliance and safeguarding sensitive data through automated detection and controls" }
+        { icon: Users, text: "Led a high-performing team of 5 DevOps engineers (L1/L2/L3), driving infrastructure optimization, advanced security hardening, and enterprise-level FinOps initiatives." },
+        { icon: DollarSign, text: "Designed and implemented a robust AWS cost optimization framework, generating $200K+ in monthly savings via ML pipeline tuning and intelligent infrastructure rightsizing." },
+        { icon: Network, text: "Engineered advanced MSK rack awareness architecture and optimized data transfer protocols, achieving substantial operational cost reductions and performance enhancements." },
+        { icon: Cloud, text: "Transformed NAT Gateway utilization strategy and deployed advanced Karpenter consolidation techniques to boost resource efficiency and minimize cloud spend." },
+        { icon: BarChart, text: "Built enterprise-scale cost anomaly detection systems and optimized WAF/CloudFront setups, delivering improved performance and measurable cost savings." },
+        { icon: Shield, text: "Directed end-to-end security transformation, including strategic migration from legacy WAF to Cloudflare, enabling superior DDoS protection and reduced latency." },
+        { icon: Lock, text: "Implemented BottleRocket OS across all EKS clusters, achieving zero-vulnerability containers and strengthening overall cluster security posture." },
+        { icon: UserCheck, text: "Integrated Aurava's PII data governance solution, ensuring full regulatory compliance and safeguarding sensitive data through automated detection and controls." }
       ]
     },
     {
