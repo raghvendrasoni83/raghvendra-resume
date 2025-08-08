@@ -11,7 +11,7 @@ const SummarySection: React.FC = () => {
       
       <div className="bg-slate-700/50 p-8 rounded-xl border border-slate-600/50 text-lg leading-relaxed text-slate-200">
         <p className="text-justify mb-6">
-          Dynamic DevOps Technical Lead with <span className="font-semibold text-amber-400">6+ years of experience</span> driving 
+          Dynamic DevOps Technical Lead with <span className="font-semibold text-amber-400">7+ years of experience</span> driving 
           cloud transformation, cost optimization, and scalable infrastructure design. Proven track record in FinOps, achieving 
           <span className="font-semibold text-amber-400"> $200K+ monthly AWS savings</span> through ML pipeline tuning, intelligent 
           rightsizing, and advanced anomaly detection. Successfully scaled systems from 
