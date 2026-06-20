@@ -14,10 +14,10 @@ const SummarySection: React.FC = () => {
           Forward-thinking <span className="font-semibold text-amber-400">DevOps Technical Lead & Cloud Platform Engineer</span> with <span className="font-semibold text-amber-400">8 years of experience</span> architecting scalable cloud infrastructure, building Internal Developer Platforms (IDP), and spearheading AIOps and FinOps strategies. Proven track record of designing high-impact platforms, scaling systems from <span className="font-semibold text-amber-400">500 RPM to 5M RPM</span> with <span className="font-semibold text-amber-400">99.9% uptime</span>, and securing container-native EKS clusters.
         </p>
         <p className="text-justify mb-6">
-          FinOps leader who engineered an AI-driven cost optimization and anomaly detection engine, generating <span className="font-semibold text-amber-400">$3.5M+ in annual AWS savings</span> through ML pipeline optimization, predictive rightsizing (Karpenter/KEDA), and smart edge routing.
+          FinOps leader and cloud infrastructure architect, delivered  <span className="font-semibold text-amber-400">$3.5M+ in annual AWS savings</span> through a combination of AI driven cost optimization and anomaly detection, ML pipeline tuning, predictive scaling, intelligent rightsizing, smart edge routing, and platform architecture improvements.
         </p>
         <p className="text-justify">
-          Respected technical mentor and cross-functional leader skilled in aligning engineering roadmaps with business goals. Expert at accelerating developer velocity through self-service environment provisioning, GitOps automation (ArgoCD/FluxCD), and building automated, self-healing observability loops.
+          Technical mentor and cross-functional leader skilled in aligning engineering roadmaps with business goals. Expert at accelerating developer velocity through self-service environment provisioning, GitOps automation (ArgoCD/FluxCD), and building automated, self-healing observability loops.
         </p>
       </div>
     </section>

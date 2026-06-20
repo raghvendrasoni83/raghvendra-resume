@@ -6,17 +6,17 @@ const SkillsSection: React.FC = () => {
     {
       title: "Cloud Platforms",
       icon: Cloud,
-      skills: ["Amazon AWS", "Google Cloud Platform", "Ant Financial Cloud"]
+      skills: ["Amazon AWS", "Google Cloud Platform", "Ant Financial Cloud", "Redis Labs", "Atlas MongoDB"]
     },
     {
       title: "Container Orchestration & Platform Engine",
       icon: Box,
-      skills: ["EKS", "Kubernetes", "Helm", "Karpenter", "Cluster Autoscaler", "Keda"]
+      skills: ["EKS", "Kubernetes", "Helm", "Karpenter", "Cluster Autoscaler", "Keda", "Custom Operator", "CRDs"]
     },
     {
       title: "AIOps & Artificial Intelligence",
       icon: BarChart,
-      skills: ["Agentic AI Workflow", "RAG Systems", "n8n Automation", "Claude & Cursor", "LLM Integrations", "MCP"]
+      skills: ["Agentic AI Workflow", "RAG Systems", "n8n Automation", "Claude & Cursor", "LLM Integrations", "MCP", "LiteLLM"]
     },
     {
       title: "Platform Engineering & GitOps",
@@ -26,7 +26,7 @@ const SkillsSection: React.FC = () => {
     {
       title: "Observability & Predictive Monitoring",
       icon: BarChart,
-      skills: ["Prometheus", "Grafana", "NewRelic", "Loki", "Promtail", "Mimir", "ELK Stack"]
+      skills: ["Prometheus", "Grafana", "NewRelic", "Loki", "Promtail", "Mimir", "Otel", "ELK Stack"]
     },
     {
       title: "Security & Network Engineering",

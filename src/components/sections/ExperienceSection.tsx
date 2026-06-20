@@ -8,14 +8,14 @@ const ExperienceSection: React.FC = () => {
       company: "Zepto | Bangalore",
       duration: "04/2025 - Current",
       achievements: [
-        { icon: Users, text: "Spearheaded technical vision and led a team of 5 DevOps/Platform engineers, establishing the enterprise Cloud Platform roadmap, security hardening standards, and organization-wide FinOps governance." },
+        { icon: Users, text: "Spearheaded technical vision and led a team of 5 DevOps/Platform engineers, establishing the enterprise Cloud Platform roadmap, security hardening standards, and organization wide FinOps governance." },
         { icon: DollarSign, text: "Architected an automated AI-driven cost optimization framework, leveraging ML pipeline tuning and predictive node rightsizing (Karpenter) to generate $180K+ ($2.2M ARR) in AWS savings." },
-        { icon: Database, text: "Built an in-house unified cost visibility dashboard consolidating multi-cloud and database infrastructure (AWS, GCP, Redis Labs, MongoDB Atlas, and Kubernetes workloads), integrated with secure RBAC and AI workflows (powered by Claude Opus 4.8) for automated optimization recommendations." },
-        { icon: Network, text: "Architected and engineered enterprise-grade Apache MSK rack awareness and zero-trust cross-AZ data transfer topologies, optimizing reliability and cutting data transfer overhead by 35%." },
-        { icon: Cloud, text: "Implemented predictive scaling using Karpenter and custom KEDA controllers, automating real-time EKS cluster capacity management to maximize resource density and minimize compute waste." },
-        { icon: Shield, text: "Steered company-wide security transformation by migrating edge networks from legacy WAF to Cloudflare Enterprise, reducing global request latency and blocking DDoS threats at the edge." },
-        { icon: Lock, text: "Standardized lightweight, container-optimized Bottlerocket OS across all corporate EKS clusters, establishing zero-vulnerability immutable hosts and automated patch management." },
-        { icon: UserCheck, text: "Architected and integrated automated PII discovery and masking pipelines (using Aurava) across production data flows, satisfying compliance audits and securing customer data." }
+        { icon: Database, text: "Built an in-house unified cost visibility platform consolidating multi cloud infrastructure across AWS, GCP, Redis Labs, MongoDB Atlas, and Kubernetes workloads. Integrated secure RBAC controls and AI-driven workflows powered by Claude Opus 4.8, leveraging LiteLLM to deliver automated optimization recommendations and actionable cost insights for engineering teams." },
+        { icon: Network, text: "Designed and implemented enterprise scale AWS MSK architectures with rack awareness and cross-AZ communication topologies, improving cluster resiliency and reducing inter-AZ data transfer charges by 70%." },
+        { icon: Cloud, text: "Implemented predictive scaling using Karpenter and custom KEDA controllers, automating realtime EKS cluster capacity management to maximize resource utilization and minimize compute waste." },
+        /*{ icon: Shield, text: "Steered company-wide security transformation by migrating edge networks from legacy WAF to Cloudflare Enterprise, reducing global request latency and blocking DDoS threats at the edge." },*/
+        { icon: Lock, text: "Standardized lightweight, container optimized Bottlerocket OS across all corporate EKS clusters, establishing zero-vulnerability immutable hosts and automated patch management." },
+        { icon: UserCheck, text: "Architected and integrated automated PII discovery and masking pipelines across production data flows, satisfying compliance audits and securing customer data." }
       ]
     },
     {
@@ -23,11 +23,11 @@ const ExperienceSection: React.FC = () => {
       company: "Zepto | Bangalore",
       duration: "04/2023 - 04/2025",
       achievements: [
-        { icon: Server, text: "Designed and built a secure, audit-compliant, self-service bastion gateway (Go, AWS SSM, Slack API) providing JIT (Just-in-Time) time-bound privileged access for incident response teams." },
-        { icon: RefreshCw, text: "Architected and orchestrated zero-downtime, automated EKS version upgrades across 20+ microservice environments, establishing multi-region active-active cluster failover protocols for business continuity." },
-        { icon: Rocket, text: "Engineered an Internal Developer Platform (IDP) and Infrastructure-as-Code (IaC) blueprints that slashed production-like environment provisioning time from 6 months to 1 week." },
+        { icon: Server, text: "Designed and built a secure, audit compliant, self-service bastion gateway (Go, AWS SSM, Slack API) providing JIT time-bound privileged access for incident response teams." },
+        { icon: RefreshCw, text: "Architected and orchestrated zero-downtime, EKS version upgrades across 5 environments, establishing multi-region active-active cluster failover protocols for business continuity." },
+        { icon: Rocket, text: "Engineered an Internal Developer Platform (IDP) and Infrastructure-as-Code (IaC) blueprints that slashed production like environment provisioning time from 6 months to 1 week." },
         { icon: Shield, text: "Led the evaluation, testing, and migration of EKS compute nodes to Bottlerocket OS, realizing a 20% improvement in container startup latency and reducing the OS attack surface." },
-        { icon: Users, text: "Mentored and upskilled a team of 4 DevOps engineers on advanced Kubernetes concepts, Infrastructure-as-Code, and cloud-native security practices." },
+        { icon: Users, text: "Mentored and upskilled a team of 4 DevOps engineers on advanced Kubernetes concepts, IaC, and cloud-native security practices." },
         { icon: BarChart, text: "Architected systematic microservices resource profiles and profiling pipelines, driving latency improvements of 25% and reducing infrastructure overhead by 15%." }
       ]
     },
@@ -37,9 +37,9 @@ const ExperienceSection: React.FC = () => {
       duration: "11/2021 - 03/2023",
       achievements: [
         { icon: Cube, text: "Served as founding DevOps Engineer, designing the core cloud architecture and scaling the production infrastructure from 500 RPM to 5M RPM during periods of hyper-growth." },
-        { icon: Box, text: "Architected and built Zepto's inaugural EKS platform, containerizing and migrating 100+ monolithic and microservice workloads from EC2 to Kubernetes." },
+        { icon: Box, text: "Architected and built Zepto's inaugural EKS platform, containerizing and migrating monolithic and microservice workloads from EC2 to Kubernetes." },
         { icon: Cloud, text: "Created GitOps deployment frameworks utilizing ArgoCD, FluxCD, and customizable Helm blueprints, reducing service onboarding from 2 days to a self-service 15-minute process." },
-        { icon: Eye, text: "Deployed an enterprise-wide observability platform (Prometheus, Grafana, Loki, NewRelic), implementing automated alert routing and anomaly thresholds to reduce Mean Time to Detect (MTTD)." },
+        { icon: Eye, text: "Deployed an enterprise wide observability platform (Prometheus, Grafana, Loki, NewRelic), implementing automated alert routing and anomaly thresholds to reduce Mean Time to Detect (MTTD)." },
         { icon: Rocket, text: "Introduced DevSpace-driven ephemeral dev/test environments, boosting engineering velocity by allowing developers to test features in isolated production-like EKS namespaces." }
       ]
     },
@@ -48,7 +48,7 @@ const ExperienceSection: React.FC = () => {
       company: "One97 Communications (Paytm) | Noida",
       duration: "07/2019 - 11/2021",
       achievements: [
-        { icon: Database, text: "Designed and implemented high-availability database and application architectures across multiple availability zones, securing 99.99% availability for key transaction systems." },
+        { icon: Database, text: "Designed and implemented high availability database and application architectures across multiple availability zones, securing 99.99% availability for key transaction systems." },
         { icon: Upload, text: "Co-led the migration of core payment workflows from on-premise data centers to AWS, establishing automated infrastructure code and telemetry dashboards." },
         { icon: UsersIcon, text: "Engineered a centralized access management and audit logging system across 6,000+ distributed servers using SaltStack, Snoopy, and Elasticsearch, streamlining security compliance." },
         { icon: BarChart, text: "Architected and standardized the monitoring and alert management blueprint across the Paytm ecosystem using Prometheus, Grafana, and Alertmanager." }
