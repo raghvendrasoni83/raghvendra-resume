@@ -11,7 +11,7 @@ const SummarySection: React.FC = () => {
 
       <div className="bg-slate-700/50 p-8 rounded-xl border border-slate-600/50 text-lg leading-relaxed text-slate-200">
         <p className="text-justify mb-6">
-          Forward-thinking <span className="font-semibold text-amber-400">Staff DevOps & Cloud Platform Engineer</span> with <span className="font-semibold text-amber-400">8 years of experience</span> architecting scalable cloud infrastructure, building Internal Developer Platforms (IDP), and spearheading AIOps and FinOps strategies. Proven track record of designing high-impact platforms, scaling systems from <span className="font-semibold text-amber-400">500 RPM to 5M RPM</span> with <span className="font-semibold text-amber-400">99.9% uptime</span>, and securing container-native EKS clusters.
+          Forward-thinking <span className="font-semibold text-amber-400">DevOps Technical Lead & Cloud Platform Engineer</span> with <span className="font-semibold text-amber-400">8 years of experience</span> architecting scalable cloud infrastructure, building Internal Developer Platforms (IDP), and spearheading AIOps and FinOps strategies. Proven track record of designing high-impact platforms, scaling systems from <span className="font-semibold text-amber-400">500 RPM to 5M RPM</span> with <span className="font-semibold text-amber-400">99.9% uptime</span>, and securing container-native EKS clusters.
         </p>
         <p className="text-justify mb-6">
           FinOps leader who engineered an AI-driven cost optimization and anomaly detection engine, generating <span className="font-semibold text-amber-400">$3.5M+ in annual AWS savings</span> through ML pipeline optimization, predictive rightsizing (Karpenter/KEDA), and smart edge routing.
