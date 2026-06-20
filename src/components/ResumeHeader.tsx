@@ -22,7 +22,7 @@ const ResumeHeader: React.FC = () => {
       <div className="w-24 h-0.5 bg-gradient-to-r from-amber-400 to-amber-600 mx-auto mb-4"></div>
       
       <p className="text-xl text-slate-300 mb-8 font-light">
-        Technical Lead DevOps | Cloud Infrastructure Architect | FinOps Specialist
+        Staff DevOps & Cloud Platform Engineer | AIOps Architect | FinOps Leader
       </p>
       
       <div className="flex flex-wrap justify-center gap-6">

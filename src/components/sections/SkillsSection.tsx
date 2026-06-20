@@ -6,47 +6,47 @@ const SkillsSection: React.FC = () => {
     {
       title: "Cloud Platforms",
       icon: Cloud,
-      skills: ["Amazon AWS", "Ant Financial Cloud", "Google Cloud Platform"]
+      skills: ["Amazon AWS", "Google Cloud Platform", "Ant Financial Cloud"]
     },
     {
-      title: "Container Orchestration",
+      title: "Container Orchestration & Platform Engine",
       icon: Box,
-      skills: ["EKS", "Kubernetes", "Helm", "FluxCD", "Karpenter", "Cluster Autoscaler", "Keda"]
+      skills: ["EKS", "Kubernetes", "Helm", "Karpenter", "Cluster Autoscaler", "Keda"]
     },
     {
-      title: "Artificial Intelligence",
+      title: "AIOps & Artificial Intelligence",
       icon: BarChart,
-      skills: ["Vide Coding", "RAG", "n8n", "Claude", "Cursor"]
+      skills: ["Agentic AI Workflow", "RAG Systems", "n8n Automation", "Claude & Cursor", "LLM Integrations", "MCP"]
     },
     {
-      title: "CI/CD Pipeline Engineering",
+      title: "Platform Engineering & GitOps",
       icon: RotateCcw,
-      skills: ["Jenkins", "Github", "Github Workflow", "ARC Runner", "SonarQube", "Trivy", "ArgoCD", "ArgoRollout"]
+      skills: ["ArgoCD", "FluxCD", "ArgoRollout", "Github Actions", "Jenkins", "ARC Runner", "SonarQube", "Trivy"]
     },
     {
-      title: "Observability & Performance Monitoring",
+      title: "Observability & Predictive Monitoring",
       icon: BarChart,
-      skills: ["Prometheus", "Grafana", "NewRelic", "ELK Stack", "Loki", "Promtail", "Mimir"]
+      skills: ["Prometheus", "Grafana", "NewRelic", "Loki", "Promtail", "Mimir", "ELK Stack"]
     },
     {
       title: "Security & Network Engineering",
       icon: Shield,
-      skills: ["Kong", "Nginx", "ALB Ingress", "Kyverno", "Bottle Rocket", "HTTP", "gRPC", "Web Sockets"]
+      skills: ["Bottle Rocket", "Kyverno", "Cloudflare WAF", "Nginx", "ALB Ingress", "gRPC", "Web Sockets"]
     },
     {
       title: "Infrastructure Automation & IaC",
       icon: Cog,
-      skills: ["Terraform", "Ansible", "Salt", "Packer"]
+      skills: ["Terraform", "Ansible", "SaltStack", "Packer"]
     },
     {
       title: "FinOps & Cost Optimization",
       icon: DollarSign,
-      skills: ["AWS CUR", "Cost Explorer", "Cloud Keeper", "Amnic"]
+      skills: ["AWS CUR", "Cost Explorer", "Cloud Keeper", "Amnic", "Predictive Rightsizing"]
     },
     {
-      title: "Development & Scripting Excellence",
+      title: "Development & Systems Excellence",
       icon: Code,
-      skills: ["Python", "Shell Scripting", "Go", "Linux"]
+      skills: ["Go", "Python", "Shell Scripting", "Linux Systems"]
     }
   ];
 

@@ -4,43 +4,43 @@ import { Users, DollarSign, Network, Cloud, BarChart, Shield, Lock, UserCheck, S
 const ExperienceSection: React.FC = () => {
   const experiences = [
     {
-      title: "Technical Lead - DevOps",
+      title: "Technical Lead - DevOps & Cloud Platform",
       company: "Zepto | Bangalore",
       duration: "04/2025 - Current",
       achievements: [
-        { icon: Users, text: "Led a high-performing team of 5 DevOps engineers (L1/L2/L3), driving infrastructure optimization, advanced security hardening, and enterprise-level FinOps initiatives." },
-        { icon: DollarSign, text: "Designed and implemented a robust AWS cost optimization framework, generating $200K+ in monthly savings via ML pipeline tuning and intelligent infrastructure rightsizing." },
-        { icon: Network, text: "Engineered advanced MSK rack awareness architecture and optimized data transfer protocols, achieving substantial operational cost reductions and performance enhancements." },
-        { icon: Cloud, text: "Transformed NAT Gateway utilization strategy and deployed advanced Karpenter consolidation techniques to boost resource efficiency and minimize cloud spend." },
-        { icon: BarChart, text: "Built enterprise-scale cost anomaly detection systems and optimized WAF/CloudFront setups, delivering improved performance and measurable cost savings." },
-        { icon: Shield, text: "Directed end-to-end security transformation, including strategic migration from legacy WAF to Cloudflare, enabling superior DDoS protection and reduced latency." },
-        { icon: Lock, text: "Implemented BottleRocket OS across all EKS clusters, achieving zero-vulnerability containers and strengthening overall cluster security posture." },
-        { icon: UserCheck, text: "Integrated Aurava's PII data governance solution, ensuring full regulatory compliance and safeguarding sensitive data through automated detection and controls." }
+        { icon: Users, text: "Spearheaded technical vision and led a team of 5 DevOps/Platform engineers, establishing the enterprise Cloud Platform roadmap, security hardening standards, and organization-wide FinOps governance." },
+        { icon: DollarSign, text: "Architected an automated AI-driven cost optimization framework, leveraging ML pipeline tuning and predictive node rightsizing (Karpenter) to generate $180K+ ($2.2M ARR) in AWS savings." },
+        { icon: Database, text: "Built an in-house unified cost visibility dashboard consolidating multi-cloud and database infrastructure (AWS, GCP, Redis Labs, MongoDB Atlas, and Kubernetes workloads), integrated with secure RBAC and AI workflows (powered by Claude Opus 4.8) for automated optimization recommendations." },
+        { icon: Network, text: "Architected and engineered enterprise-grade Apache MSK rack awareness and zero-trust cross-AZ data transfer topologies, optimizing reliability and cutting data transfer overhead by 35%." },
+        { icon: Cloud, text: "Implemented predictive scaling using Karpenter and custom KEDA controllers, automating real-time EKS cluster capacity management to maximize resource density and minimize compute waste." },
+        { icon: Shield, text: "Steered company-wide security transformation by migrating edge networks from legacy WAF to Cloudflare Enterprise, reducing global request latency and blocking DDoS threats at the edge." },
+        { icon: Lock, text: "Standardized lightweight, container-optimized Bottlerocket OS across all corporate EKS clusters, establishing zero-vulnerability immutable hosts and automated patch management." },
+        { icon: UserCheck, text: "Architected and integrated automated PII discovery and masking pipelines (using Aurava) across production data flows, satisfying compliance audits and securing customer data." }
       ]
     },
     {
-      title: "Sr DevOps Engineer",
-      company: "Zepto | Bangalore", 
+      title: "Senior DevOps & Platform Engineer",
+      company: "Zepto | Bangalore",
       duration: "04/2023 - 04/2025",
       achievements: [
-        { icon: Server, text: "Architected and deployed sophisticated in-house bastion server utilizing AWS SSM, Slack Bot integration, and Go programming, delivering controlled time-based access for critical incident response." },
-        { icon: RefreshCw, text: "EKS version upgrades across multiple environments over 3 years with zero/minimal downtime, ensuring smooth platform evolution. Designed and implemented redundant EKS clusters to support rapid failover and ensure business continuity in case of emergency." },
-        { icon: Rocket, text: "Revolutionized environment provisioning through comprehensive automation, dramatically reducing production-like environment setup from 6 months to 1-2 weeks." },
-        { icon: Shield, text: "Successfully orchestrated enterprise-wide BottleRocket AMI deployment across all environments and EKS clusters, achieving 5-20% performance enhancement and substantial security risk mitigation." },
-        { icon: Users, text: "Provided strategic leadership and mentorship to a team of 4 engineers, facilitating knowledge transfer, career development, and seamless project execution." },
-        { icon: BarChart, text: "Engineered comprehensive latency optimization and resource utilization strategies for micro-services architecture, delivering measurable performance improvements." }
+        { icon: Server, text: "Designed and built a secure, audit-compliant, self-service bastion gateway (Go, AWS SSM, Slack API) providing JIT (Just-in-Time) time-bound privileged access for incident response teams." },
+        { icon: RefreshCw, text: "Architected and orchestrated zero-downtime, automated EKS version upgrades across 20+ microservice environments, establishing multi-region active-active cluster failover protocols for business continuity." },
+        { icon: Rocket, text: "Engineered an Internal Developer Platform (IDP) and Infrastructure-as-Code (IaC) blueprints that slashed production-like environment provisioning time from 6 months to 1 week." },
+        { icon: Shield, text: "Led the evaluation, testing, and migration of EKS compute nodes to Bottlerocket OS, realizing a 20% improvement in container startup latency and reducing the OS attack surface." },
+        { icon: Users, text: "Mentored and upskilled a team of 4 DevOps engineers on advanced Kubernetes concepts, Infrastructure-as-Code, and cloud-native security practices." },
+        { icon: BarChart, text: "Architected systematic microservices resource profiles and profiling pipelines, driving latency improvements of 25% and reducing infrastructure overhead by 15%." }
       ]
     },
     {
-      title: "DevOps Engineer II",
+      title: "DevOps Engineer II (Founding Platform Member)",
       company: "Zepto | Bangalore",
-      duration: "11/2021 - 03/2023", 
+      duration: "11/2021 - 03/2023",
       achievements: [
-        { icon: Cube, text: "As founding devops engineer, architected and scaled revolutionary infrastructure supporting exponential growth from 500 RPM to 5M RPM, establishing industry-leading performance benchmarks." },
-        { icon: Box, text: "Designed Zepto’s first Kubernetes (EKS) infrastructure. Migrated microservices from EC2 to EKS." },
-        { icon: Cloud, text: "Designed and implemented a comprehensive Kubernetes orchestration platform, automating onboarding and deployment processes for 500+ microservices using custom helm charts, ArgoCD, and FluxCD, reducing onboarding time from 2 days to under 15 minutes." },
-        { icon: Eye, text: "Established enterprise-grade observability ecosystem utilizing NewRelic, Prometheus, Grafana, Loki, and Promtail, providing comprehensive system visibility and proactive monitoring." },
-        { icon: Rocket, text: "Pioneered automated ephemeral environment solutions optimized for Dev/QA workflows using DevSpace, accelerating development cycles and improving testing efficiency." }
+        { icon: Cube, text: "Served as founding DevOps Engineer, designing the core cloud architecture and scaling the production infrastructure from 500 RPM to 5M RPM during periods of hyper-growth." },
+        { icon: Box, text: "Architected and built Zepto's inaugural EKS platform, containerizing and migrating 100+ monolithic and microservice workloads from EC2 to Kubernetes." },
+        { icon: Cloud, text: "Created GitOps deployment frameworks utilizing ArgoCD, FluxCD, and customizable Helm blueprints, reducing service onboarding from 2 days to a self-service 15-minute process." },
+        { icon: Eye, text: "Deployed an enterprise-wide observability platform (Prometheus, Grafana, Loki, NewRelic), implementing automated alert routing and anomaly thresholds to reduce Mean Time to Detect (MTTD)." },
+        { icon: Rocket, text: "Introduced DevSpace-driven ephemeral dev/test environments, boosting engineering velocity by allowing developers to test features in isolated production-like EKS namespaces." }
       ]
     },
     {
@@ -48,10 +48,10 @@ const ExperienceSection: React.FC = () => {
       company: "One97 Communications (Paytm) | Noida",
       duration: "07/2019 - 11/2021",
       achievements: [
-        { icon: Database, text: "Orchestrated comprehensive disaster recovery protocols and implemented high-availability architectures ensuring 24x7 operational excellence with zero planned downtime." },
-        { icon: Upload, text: "Strategically planned and executed large-scale data center to AWS cloud migration, establishing robust deployment pipelines, automation frameworks, and comprehensive observability solutions." },
-        { icon: UsersIcon, text: "Engineered enterprise-scale user management automation across 6,000+ servers supporting 500+ personnel, utilizing Salt, Snoopy, SSH, and ElasticSearch for comprehensive audit trails." },
-        { icon: BarChart, text: "Architected unified monitoring infrastructure across Paytm ecosystem using Prometheus, Grafana, Telegraf, and Alertmanager, establishing centralized observability standards." }
+        { icon: Database, text: "Designed and implemented high-availability database and application architectures across multiple availability zones, securing 99.99% availability for key transaction systems." },
+        { icon: Upload, text: "Co-led the migration of core payment workflows from on-premise data centers to AWS, establishing automated infrastructure code and telemetry dashboards." },
+        { icon: UsersIcon, text: "Engineered a centralized access management and audit logging system across 6,000+ distributed servers using SaltStack, Snoopy, and Elasticsearch, streamlining security compliance." },
+        { icon: BarChart, text: "Architected and standardized the monitoring and alert management blueprint across the Paytm ecosystem using Prometheus, Grafana, and Alertmanager." }
       ]
     }
   ];
@@ -59,11 +59,11 @@ const ExperienceSection: React.FC = () => {
   return (
     <section className="bg-slate-800/90 backdrop-blur-xl rounded-2xl p-8 shadow-2xl border border-slate-700/50 relative overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-amber-400 to-transparent"></div>
-      
+
       <h2 className="text-3xl font-bold text-center mb-8 text-white">
         Professional Experience
       </h2>
-      
+
       <div className="space-y-6">
         {experiences.map((exp, index) => (
           <div key={index} className="bg-slate-700/50 p-6 rounded-xl border border-slate-600/50 shadow-lg hover:shadow-xl hover:bg-slate-700/70 transition-all duration-300">
@@ -76,7 +76,7 @@ const ExperienceSection: React.FC = () => {
                 {exp.duration}
               </div>
             </div>
-            
+
             <div className="space-y-4">
               {exp.achievements.map((achievement, achIndex) => {
                 const IconComponent = achievement.icon;

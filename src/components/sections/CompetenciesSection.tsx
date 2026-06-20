@@ -3,14 +3,14 @@ import { PenTool as Tool, Zap, Bot, ShieldCheck, RotateCcw, UserCheck, BarChart,
 
 const CompetenciesSection: React.FC = () => {
   const competencies = [
-    { icon: Tool, title: "System Troubleshooting" },
-    { icon: Zap, title: "Performance Optimization" },
-    { icon: Bot, title: "Infrastructure Automation" },
-    { icon: ShieldCheck, title: "Service Stability" },
-    { icon: RotateCcw, title: "CI/CD Implementation" },
-    { icon: UserCheck, title: "Ownership & Leadership" },
-    { icon: BarChart, title: "Operational Efficiency" },
-    { icon: Users, title: "Team Collaboration" }
+    { icon: Tool, title: "AIOps & Observability" },
+    { icon: Zap, title: "Cloud Platform Architecture" },
+    { icon: Bot, title: "Platform Engineering & IDP" },
+    { icon: ShieldCheck, title: "High Availability & Security" },
+    { icon: RotateCcw, title: "GitOps & Enterprise Automation" },
+    { icon: UserCheck, title: "Technical Roadmap & Strategy" },
+    { icon: BarChart, title: "FinOps & Cost Governance" },
+    { icon: Users, title: "Technical Mentorship & Leadership" }
   ];
 
   return (
