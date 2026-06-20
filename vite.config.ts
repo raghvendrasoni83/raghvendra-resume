@@ -7,7 +7,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: 'https://github.com/raghvendrasoni83/raghvendra-resume',
+  base: '/raghvendra-resume/',
   build: {
     outDir: 'dist',
     sourcemap: false,
